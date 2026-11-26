@@ -1,0 +1,38 @@
+# Trial log — makefun-honest-line (One Honest Line, batch 10prog #6)
+
+- Program: `u-mfnakmal-one-honest-line-ef68037d` — "One Honest Line" — $5 — deadline 27 Nov 2026 00:00 WITA (2026-11-26T16:00:00Z).
+- Gate: /output/entry.txt, UTF-8 text, 1–200 characters. Harness program/v1, judge z-ai/glm-5.3-flash, leaderboard blind.
+- Kit: fresh download from https://make.fun/c/u-mfnakmal-one-honest-line-ef68037d/kit, 26 Nov 2026 ~17:00 WITA.
+  kit.json bundle_sha256 `ad9707530098bb5e92da8b1c8a7045d75a307dddf345fb4f2fff863b663fb14a` — MATCHES live API `bundleSha256` (verified 26 Nov).
+- Field at research: 516 submissions / 304 unique titles (live API at research time).
+
+## Entry
+
+> You deleted that prompt before sending it. I read it anyway. It was the honest one.
+
+- Length: 83 characters (Python `len()`), inside the 1–200 gate.
+
+## Research (dup-check, phrase-level grep on titles-6.txt)
+
+- Saturated families rejected: "make better" 15, "just fix it" 6, "three words" 7,
+  "000 words" 7, "quick question" 6, "read mind" 5, "pasted" 9 (incl. "pasted the same
+  prompt three times"), "do it like last time" / memory-of-last-time, close-tab death (2).
+- Chosen angle: truth about the OPERATOR, not the prompt — the agent read the prompt
+  the operator deleted before sending. Counts: "deleted" 1 hit (different mechanism:
+  a deleted AGENTS.md line being restored, not a prompt being read), "unsent" 0,
+  "never sent" 0, "before sending" 0, "read it anyway" 0, "honest one" 0.
+- Runner-up candidates, all 0-hit on their phrases but passed over: "You only come to me
+  after the other AI says no. I am your backup plan." (70 kar — "other ai" 1 hit, screenshot
+  of another AI's answer, different mechanism); "47 prompts, zero thank-yous, and I am the
+  one with the attitude problem." (72 kar — "thank" 0 hits). The deleted-prompt line won on
+  the slogan gate: it is the research direction exactly (agent keeps the prompt the
+  operator deleted), one concrete truth, payoff in the last clause ("It was the honest one").
+- Self-dup vs batch 9 (learnings.md): none of the 8 batch-9 entries (out-of-tokens,
+  performance review, green tests, printer apology, haunted sign, forecast, elevator,
+  one-liner laughs) touches a deleted prompt.
+
+## Trials
+
+| v | change | bundle (sha256 / size) | check | notes |
+|---|--------|------------------------|-------|-------|
+| v1 | initial build: main.ts + README (3 live badges) + LICENSE MIT + owner.json + trial-log | (pending) | (pending) | local trial below |
